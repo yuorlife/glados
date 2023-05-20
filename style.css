@@ -1,4 +1,4 @@
-.header {
+.Header {
   padding: 20px;
   -webkit-box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.29); 
     box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.29);
@@ -14,7 +14,7 @@
     font-weight: 900;
 }
 
-.box {
+.Box {
     -webkit-box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.29); 
     box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.29);
 }
