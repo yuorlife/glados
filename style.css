@@ -1,1 +1,20 @@
+.header {
+  padding: 20px;
+  -webkit-box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.29); 
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.29);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: pink;
+    color:black ;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 50px;
+    font-weight: 900;
+}
 
+.box {
+    -webkit-box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.29); 
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.29);
+}
