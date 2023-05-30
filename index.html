@@ -20,7 +20,9 @@
 <body>
     <div class="header">
         <img src="Logoo.png" alt="Logoo" class="imga">
-        <button class="About">Testing</button>
+        <button class="About" onclick="window.location.href='testing.html'" value="test">
+            Testing
+        </button>
 
     </div>
 
@@ -34,21 +36,32 @@
     </div>
 </body>
 <style>
+    body {
+        background: url(Background.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     .header {
-        background-color: #d1d1d1;
+        background-color: #575757;
         color: #000;
-        width: 100%;
+        width: 80%;
         top: 0;
         left: 0;
         padding: 10px;
-        position: fixed;
+        position: absolute;
         -webkit-box-shadow: 0px 0px 40px 12px rgba(0,0,0,0.52); 
         box-shadow: 0px 0px 40px 12px rgba(0,0,0,0.52);
+        border-radius: 15px;
+        text-align: center;
         
     }
     
     .TOS {
         font-size: xx-small;
+        color: #ffffff;
     }
 
     .title {
@@ -56,13 +69,13 @@
         font-size: 28px;
         letter-spacing: 2px;
         word-spacing: 2px;
-        color: 	#000000;
+        color: 	#ffffff;
         font-weight: 400;
         text-decoration: none;
         font-style: italic;
         font-variant: small-caps;
         text-transform: none;
-        text-shadow: 0px -1px 8px #00A2FF;
+        text-align: center;
     }
 
     .imga {
@@ -75,40 +88,37 @@
         margin-top: 4%;
     }
 
-    .About {
-        border-radius: 12px;
-        background-color: #000;
-        color: #0000;
-        transition-duration: 1,5s;
-        width: 50px;
-        height: 100px;
-    }
-     .About:hover {
-        background-color: #27a7d8;
-        color: #0000;
-     }
 
     .imga {
         width: 10%;
         height: auto;
+        filter: invert(1);
     }
 
-    .About {
-        border-radius: 12px;
+   .About {
+        border-radius: 8px;
         background-color: #000;
-        color: #0000;
-        transition-duration: 1s;
-        width: 15px;
-        height: 10px;
+        color: #ffffff;
+        transition-duration: 0.5s;
         border: none;
         text-align: center;
         display: inline-block;
+        font-size: large;
+        font-variant: small-caps;
+        margin-left: 10px;
+        
+        
 
     }
      .About:hover {
         background-color: #27a7d8;
-        color: #0000;
-     }
+        color: #000;
+        box-shadow: 0px 0px 10px #00A2FF;
+     } 
+
+
 </style>
 </html>
+
+
 
